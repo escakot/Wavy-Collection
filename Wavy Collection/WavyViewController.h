@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WavyViewController.h
 //  Wavy Collection
 //
 //  Created by Errol Cheong on 2017-07-13.

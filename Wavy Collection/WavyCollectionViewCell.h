@@ -10,4 +10,6 @@
 
 @interface WavyCollectionViewCell : UICollectionViewCell
 
+-(void)updateDisplay;
+
 @end
