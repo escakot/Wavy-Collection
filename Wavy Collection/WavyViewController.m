@@ -6,13 +6,13 @@
 //  Copyright © 2017 Errol Cheong. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WavyViewController.h"
 
-@interface ViewController ()
+@interface WavyViewController ()
 
 @end
 
-@implementation ViewController
+@implementation WavyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
