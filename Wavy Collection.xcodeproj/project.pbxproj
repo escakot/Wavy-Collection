@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D102CBBF1F1859F20024EA52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D102CBBE1F1859F20024EA52 /* main.m */; };
+		D102CBC21F1859F20024EA52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D102CBC11F1859F20024EA52 /* AppDelegate.m */; };
+		D102CBC51F1859F20024EA52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D102CBC41F1859F20024EA52 /* ViewController.m */; };
+		D102CBC81F1859F20024EA52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D102CBC61F1859F20024EA52 /* Main.storyboard */; };
+		D102CBCA1F1859F20024EA52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D102CBC91F1859F20024EA52 /* Assets.xcassets */; };
+		D102CBCD1F1859F20024EA52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D102CBCB1F1859F20024EA52 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D102CBBA1F1859F20024EA52 /* Wavy Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wavy Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D102CBBE1F1859F20024EA52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D102CBC01F1859F20024EA52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D102CBC11F1859F20024EA52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D102CBC31F1859F20024EA52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D102CBC41F1859F20024EA52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D102CBC71F1859F20024EA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D102CBC91F1859F20024EA52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D102CBCC1F1859F20024EA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D102CBCE1F1859F20024EA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D102CBB71F1859F20024EA52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D102CBB11F1859F20024EA52 = {
+			isa = PBXGroup;
+			children = (
+				D102CBBC1F1859F20024EA52 /* Wavy Collection */,
+				D102CBBB1F1859F20024EA52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D102CBBB1F1859F20024EA52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D102CBBA1F1859F20024EA52 /* Wavy Collection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D102CBBC1F1859F20024EA52 /* Wavy Collection */ = {
+			isa = PBXGroup;
+			children = (
+				D102CBC01F1859F20024EA52 /* AppDelegate.h */,
+				D102CBC11F1859F20024EA52 /* AppDelegate.m */,
+				D102CBC31F1859F20024EA52 /* ViewController.h */,
+				D102CBC41F1859F20024EA52 /* ViewController.m */,
+				D102CBC61F1859F20024EA52 /* Main.storyboard */,
+				D102CBC91F1859F20024EA52 /* Assets.xcassets */,
+				D102CBCB1F1859F20024EA52 /* LaunchScreen.storyboard */,
+				D102CBCE1F1859F20024EA52 /* Info.plist */,
+				D102CBBD1F1859F20024EA52 /* Supporting Files */,
+			);
+			path = "Wavy Collection";
+			sourceTree = "<group>";
+		};
+		D102CBBD1F1859F20024EA52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D102CBBE1F1859F20024EA52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D102CBB91F1859F20024EA52 /* Wavy Collection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D102CBD11F1859F20024EA52 /* Build configuration list for PBXNativeTarget "Wavy Collection" */;
+			buildPhases = (
+				D102CBB61F1859F20024EA52 /* Sources */,
+				D102CBB71F1859F20024EA52 /* Frameworks */,
+				D102CBB81F1859F20024EA52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wavy Collection";
+			productName = "Wavy Collection";
+			productReference = D102CBBA1F1859F20024EA52 /* Wavy Collection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D102CBB21F1859F20024EA52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Errol Cheong";
+				TargetAttributes = {
+					D102CBB91F1859F20024EA52 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D102CBB51F1859F20024EA52 /* Build configuration list for PBXProject "Wavy Collection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D102CBB11F1859F20024EA52;
+			productRefGroup = D102CBBB1F1859F20024EA52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D102CBB91F1859F20024EA52 /* Wavy Collection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D102CBB81F1859F20024EA52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D102CBCD1F1859F20024EA52 /* LaunchScreen.storyboard in Resources */,
+				D102CBCA1F1859F20024EA52 /* Assets.xcassets in Resources */,
+				D102CBC81F1859F20024EA52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D102CBB61F1859F20024EA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D102CBC51F1859F20024EA52 /* ViewController.m in Sources */,
+				D102CBC21F1859F20024EA52 /* AppDelegate.m in Sources */,
+				D102CBBF1F1859F20024EA52 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D102CBC61F1859F20024EA52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D102CBC71F1859F20024EA52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D102CBCB1F1859F20024EA52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D102CBCC1F1859F20024EA52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D102CBCF1F1859F20024EA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D102CBD01F1859F20024EA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D102CBD21F1859F20024EA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wavy Collection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.errolcheong.Wavy-Collection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D102CBD31F1859F20024EA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wavy Collection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.errolcheong.Wavy-Collection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D102CBB51F1859F20024EA52 /* Build configuration list for PBXProject "Wavy Collection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D102CBCF1F1859F20024EA52 /* Debug */,
+				D102CBD01F1859F20024EA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D102CBD11F1859F20024EA52 /* Build configuration list for PBXNativeTarget "Wavy Collection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D102CBD21F1859F20024EA52 /* Debug */,
+				D102CBD31F1859F20024EA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D102CBB21F1859F20024EA52 /* Project object */;
+}
